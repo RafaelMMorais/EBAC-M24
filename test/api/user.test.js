@@ -13,7 +13,6 @@ beforeEach(async () => {
             "password": "admin123"
         })
         .returns('data.token')
-
 })
 
 it('API - listagem de usuarios', async () => {
